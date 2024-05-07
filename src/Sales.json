@@ -1,0 +1,48 @@
+{
+    "saleReport": {
+        "name": "Total Sales",
+        "value": 35064
+    },
+    "Category": [
+        {
+            "name": "Category C1",
+            "value": 25804,
+            "subCategories": [
+                {
+                    "name": "C1S1",
+                    "value": 23420
+                },
+                {
+                    "name": "C1S2",
+                    "value": 1341
+                },
+                {
+                    "name": "C1S3",
+                    "value": 1043
+                }
+            ]
+        },
+        {
+            "name": "Category C2",
+            "value": 9260,
+            "subCategories": [
+                {
+                    "name": "C2S1",
+                    "value": 5243
+                },
+                {
+                    "name": "C2S2",
+                    "value": 2469
+                },
+                {
+                    "name": "C2S3",
+                    "value": 1548
+                },
+                {
+                    "name": "C2S4",
+                    "value": 5243
+                }
+            ]
+        }
+    ]
+}
