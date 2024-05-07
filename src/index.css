@@ -1,0 +1,39 @@
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+.container {
+  width: 10vw;
+  height: 10px;
+  border-style: none;
+  background-color: #cdcdcd;
+  position: relative;
+  z-index: -1;
+}
+.innerContainer {
+  height: 10px;
+  place-items: center;
+  margin: auto;
+  background: linear-gradient(to left, #040cdf, #029ce9);
+  position: absolute;
+  transition: 1.5s ease 0.3s;
+  z-index: 100;
+}
+.react-flow__handle {
+  opacity: 0;
+}
+.innerText {
+  margin-top: 12px;
+  font-size: 0.7rem;
+  position: absolute;
+}
